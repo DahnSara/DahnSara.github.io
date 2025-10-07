@@ -1,14 +1,11 @@
-
-
 <!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Sara — Full‑Stack Developer</title>
-  <meta name="description" content="Sara — Full‑Stack Developer (PHP, Laravel, React). Portfolio professionnel.">
-  <meta name="author" content="Sara">
-
+  <title>Dahnoun Sara — Full‑Stack Developer</title>
+  <meta name="description" content="Dahnoun Sara — Full‑Stack Developer (PHP, Laravel, React). Portfolio professionnel.">
+  <meta name="author" content="Dahnoun Sara">
   <style>
     :root{
       --bg:#0f1724; --card:#111827; --muted:#9ca3af; --accent:#0ea5a4; --glass: rgba(255,255,255,0.04);
@@ -21,9 +18,7 @@
       margin:0; font-family:var(--ff); background:linear-gradient(180deg,var(--bg),#081021);
       color:#e6eef6; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; padding:24px;
     }
-
     .container{max-width:var(--maxw); margin:24px auto;}
-
     header{display:flex;align-items:center;justify-content:space-between;gap:16px}
     .brand{display:flex;gap:12px;align-items:center}
     .brand .logo{width:46px;height:46px;border-radius:10px;overflow:hidden;background:var(--glass);display:grid;place-items:center;font-weight:700}
@@ -31,35 +26,25 @@
     nav{display:flex;gap:12px;align-items:center}
     nav a{color:var(--muted);text-decoration:none;font-size:14px}
     .btn{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:8px 12px;border-radius:10px;font-size:14px}
-
     main{margin-top:18px}
     .hero{display:grid;grid-template-columns:260px 1fr;gap:28px;align-items:center}
-
     .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(2,6,23,0.6)}
-
     .avatar{width:220px;height:220px;border-radius:14px;overflow:hidden;border:6px solid rgba(255,255,255,0.03);display:block}
     .avatar img{width:100%;height:100%;object-fit:cover;display:block}
-
     .intro h2{margin:0;font-size:26px}
     .intro p{color:var(--muted);margin:8px 0 14px}
-
     .cta{display:flex;gap:10px}
     .primary{background:var(--accent);color:#042022;padding:10px 14px;border-radius:10px;border:none;font-weight:600}
     .outline{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:10px 14px;border-radius:10px}
-
     .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
     .skill{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:999px;font-size:13px;color:var(--muted)}
-
     section h3{margin:0 0 12px}
-
     .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
     .proj{padding:14px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0.01));min-height:120px}
     .proj h4{margin:0 0 6px}
     .proj p{color:var(--muted);font-size:13px;margin:0 0 10px}
     .proj a{font-size:13px;text-decoration:none;color:var(--accent)}
-
     footer{margin-top:28px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;align-items:center}
-
     @media (max-width:880px){
       .hero{grid-template-columns:1fr;}
       .avatar{width:160px;height:160px;margin:0 auto}
@@ -71,41 +56,37 @@
   <div class="container">
     <header>
       <div class="brand">
-        <div class="logo">S</div>
+        <div class="logo">DS</div>
         <div>
-          <h1>Sara — Full‑Stack Developer</h1>
+          <h1>Dahnoun Sara — Full‑Stack Developer</h1>
           <div style="color:var(--muted);font-size:13px">PHP • Laravel • React • MySQL • REST APIs</div>
         </div>
       </div>
-
       <nav>
         <a href="#projects">Projets</a>
         <a href="#skills">Compétences</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
-
     <main>
       <div class="hero">
         <aside class="card" style="display:flex;flex-direction:column;align-items:center;gap:12px">
           <div class="avatar">
             <!-- Remplace assets/avatar.jpg par ta photo -->
-            <img src="assets/avatar.jpg" alt="Photo de Sara">
+            <img src="assets/avatar.jpg" alt="Photo de Dahnoun Sara">
           </div>
           <div style="text-align:center">
-            <div style="font-weight:700">Sara</div>
+            <div style="font-weight:700">Dahnoun Sara</div>
             <div style="color:var(--muted);font-size:13px">Full‑Stack Developer</div>
           </div>
           <div style="width:100%;display:flex;gap:8px;justify-content:center;margin-top:8px">
             <a class="primary" href="#contact">Contacter</a>
-            <a class="outline" href="assets/CV-Sara.pdf" download>Download CV</a>
+            <a class="outline" href="assets/CV-Dahnoun.pdf" download>Download CV</a>
           </div>
         </aside>
-
         <section class="card intro">
-          <h2>Bonjour — je suis Sara</h2>
+          <h2>Bonjour — je suis Dahnoun Sara</h2>
           <p>Je construis des applications web robustes et scalables. J'aime travailler sur des projets full‑stack, de la base de données jusqu'à l'interface utilisateur.</p>
-
           <div id="skills">
             <h3>Compétences</h3>
             <div class="skills">
@@ -119,48 +100,41 @@
               <div class="skill">Git &amp; Deployment</div>
             </div>
           </div>
-
           <div id="projects" style="margin-top:18px">
             <h3>Projets récents</h3>
             <div class="projects">
               <article class="proj">
                 <h4>Projet A</h4>
                 <p>Application web de gestion (Laravel + MySQL). Authentification, tableau de bord admin.</p>
-                <a href="https://github.com/TonPseudo/projet-a" target="_blank" rel="noopener noreferrer">Voir le repo →</a>
+                <a href="https://github.com/DahnSara/projet-a" target="_blank" rel="noopener noreferrer">Voir le repo →</a>
               </article>
-
               <article class="proj">
                 <h4>Projet B</h4>
                 <p>SPA React consommant une API REST, optimisation et tests unitaires.</p>
-                <a href="https://github.com/TonPseudo/projet-b" target="_blank" rel="noopener noreferrer">Voir le repo →</a>
+                <a href="https://github.com/DahnSara/projet-b" target="_blank" rel="noopener noreferrer">Voir le repo →</a>
               </article>
-
               <article class="proj">
                 <h4>Projet C</h4>
                 <p>Service API en Node.js avec authentification JWT et documentation OpenAPI.</p>
-                <a href="https://github.com/TonPseudo/projet-c" target="_blank" rel="noopener noreferrer">Voir le repo →</a>
+                <a href="https://github.com/DahnSara/projet-c" target="_blank" rel="noopener noreferrer">Voir le repo →</a>
               </article>
             </div>
           </div>
-
         </section>
       </div>
-
       <section id="contact" class="card" style="margin-top:18px">
         <h3>Contact</h3>
         <p style="color:var(--muted)">Tu veux collaborer ? Envoie-moi un message :</p>
-        <p style="margin:6px 0 0"><strong>Email:</strong> <a href="mailto:sara@example.com" style="color:var(--accent);text-decoration:none">sara@example.com</a></p>
+        <p style="margin:6px 0 0"><strong>Email:</strong> <a href="mailto:dahnounsarah6@gmail.com" style="color:var(--accent);text-decoration:none">dahnounsarah6@gmail.com</a></p>
         <p style="margin:6px 0 0;color:var(--muted)">Ou visite mon profil Fiverr / LinkedIn / GitHub :</p>
-        <p style="margin:6px 0 0"><a href="https://www.fiverr.com/" target="_blank" rel="noopener noreferrer">Fiverr</a> • <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a> • <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        <p style="margin:6px 0 0"><a href="https://www.fiverr.com/" target="_blank" rel="noopener noreferrer">Fiverr</a> • <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a> • <a href="https://github.com/DahnSara" target="_blank" rel="noopener noreferrer">GitHub</a></p>
       </section>
-
       <footer>
-        <div>© <span id="year"></span> Sara — Full‑Stack Developer</div>
+        <div>© <span id="year"></span> Dahnoun Sara — Full‑Stack Developer</div>
         <div style="color:var(--muted)">Made with ♥ — GitHub Pages</div>
       </footer>
     </main>
   </div>
-
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
